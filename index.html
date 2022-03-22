@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <title>list to do</title>
+</head>
+<body>
+    <header>
+        <h1>To do </h1>
+        <span class="txt-rotate" data-period="2000" data-rotate='["the homework","the lunch","exercise","shooping"]'></span>
+    </header>
+    <main >
+
+        <section class="principal">
+            <div class="wrap">            
+               <form class ="formulario">
+                 <input class="text" type="text" id="tareaInput" placeholder="Task to do">
+                 <input class="btn" type="button" id="btn-agregar" value="Add Homework">
+               </form>
+            </div>
+        </section>
+        <section class="tasks">
+            <div class="wrap">
+                <ul  class="lista"id="lista">
+                    <li><a href="#">Healthy breakfast</a></li>
+                    <li><a href="#">To do physical exercise</a></li>
+                    <li><a href="#">Drink a lot of water</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Si pudes imaginarlo,<span> puedes programarlo.</span></p>
+    </footer>    
+    <script src="./js/index.js"></script>
+</body>
+</html>
